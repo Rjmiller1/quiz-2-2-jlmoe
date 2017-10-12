@@ -34,7 +34,11 @@ public class SortedListTest {
 	 */
 	@Test
 	public void testAddS() {
-
+		SortedList<Integer> list = new SortedList<Integer>();
+		list.add(4);
+		list.add(5);
+		list.add(6);
+		assertEquals(4,list.get(0),0.1);
 	}
 	
 	/*
